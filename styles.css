@@ -54,7 +54,7 @@ body {
 
 .left h1 {
     font-size: 40px;
-    margin-bottom: 20px;
+    margin-block-end: 20px;
     color: var(--Blue800);
 }
 
@@ -96,14 +96,14 @@ body {
     display: flex;
     flex-direction: column;
     gap: 4px;
-    margin-bottom: 15px;
+    margin-block-end: 15px;
 }
 
 label[for="email"] {
     color: var(--Blue800);
     font-weight: bold;
     font-size: 10px;
-    margin-bottom: 2px;
+    margin-block-end: 2px;
 }
 
 #email {
@@ -111,7 +111,7 @@ label[for="email"] {
     padding: 12px;
     border-radius: 8px;
     border-color: lightgray;
-    color: rgb(0, 0, 0);
+    color: var(--Blue800);
     cursor: pointer;
 }
 
@@ -217,7 +217,7 @@ label[for="email"] {
 #email-error {
     color: var(--Red);
     font-size: 0.9rem;
-    margin-bottom: 10px;
+    margin-block-end: 10px;
     display: block;
 }
 
@@ -275,7 +275,7 @@ label[for="email"] {
 
     .email-box {
         gap: 20px;
-        margin-bottom: 20px;
+        margin-block-end: 20px;
     }
 
     .left h1 {
@@ -310,16 +310,16 @@ label[for="email"] {
     }
 
     .success-icon {
-        margin-top: 65px;
-        margin-bottom: 15px;
+        margin-block-start: 65px;
+        margin-block-end: 15px;
     }
 
     .success-message button {
-        margin-top: 300px;
+        margin-block-start: 300px;
     }
 
     .success-message h1 {
         font-size: 30px;
-        margin-bottom: 15px;
+        margin-block-end: 15px;
     }
 }
