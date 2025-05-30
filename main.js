@@ -9,7 +9,6 @@ const dismissBtn = document.getElementById("dismissBtn");
 
 
 
-
 form.addEventListener("submit", function (event) {
     event.preventDefault();  //رفتار های پیش فرض تابع را از بین ببر
 
